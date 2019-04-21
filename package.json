@@ -1,0 +1,24 @@
+{
+  "name": "custom-oauth2-server",
+  "version": "1.0.0",
+  "description": "Custom oAuth2 server like google",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Vishal Sherathiya <vishalsherathiya@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "mongoose": "^5.5.2",
+    "oauth2orize": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
